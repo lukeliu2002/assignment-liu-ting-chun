@@ -10,8 +10,8 @@ describe('ThemeButton.vue', () => {
   })
 
   it('should emit click event onclick', () => {
-  	const wrapper = shallowMount(ThemeButton);
-  	wrapper.trigger('click');
+    const wrapper = shallowMount(ThemeButton);
+    wrapper.trigger('click');
     expect(wrapper.emitted('click')).toHaveLength(1);
   })
 })

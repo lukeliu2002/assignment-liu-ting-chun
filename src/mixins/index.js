@@ -5,9 +5,9 @@ import Storage from './Storage';
 import ToastController from './ToastController';
 
 export {
-	AddressParser,
-	APIController,
-	CSVParser,
-	Storage,
-	ToastController
+  AddressParser,
+  APIController,
+  CSVParser,
+  Storage,
+  ToastController
 }

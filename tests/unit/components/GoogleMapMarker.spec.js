@@ -1,8 +1,8 @@
 import GoogleMapMarker from '@/components/GoogleMapMarker.vue';
 
 describe('GoogleMapMarker.vue', () => {
-	it ('should have google, map and marker props', () => {
-		expect(GoogleMapMarker.props).toEqual({
+  it ('should have google, map and marker props', () => {
+    expect(GoogleMapMarker.props).toEqual({
       google: {
         type: Object,
         required: true
@@ -16,5 +16,5 @@ describe('GoogleMapMarker.vue', () => {
         required: true
       }
     });
-	})
+  })
 })

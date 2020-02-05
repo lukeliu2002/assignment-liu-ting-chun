@@ -13,13 +13,13 @@ describe('HistoryBlock.vue', () => {
   })
 
   it('should emit click event onclick', () => {
-  	const wrapper = shallowMount(HistoryBlock, {
-  		propsData: { 
-  			index: 1,
-  			record: {} 
-  		}
-  	});
-  	wrapper.trigger('click');
+    const wrapper = shallowMount(HistoryBlock, {
+      propsData: { 
+        index: 1,
+        record: {} 
+      }
+    });
+    wrapper.trigger('click');
     expect(wrapper.emitted('click')).toHaveLength(1);
   })
 })
