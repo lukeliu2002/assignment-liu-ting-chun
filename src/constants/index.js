@@ -1,5 +1,5 @@
 const ADDRESS_COLUMNS = [ 'ADDRESS', 'CITY', 'STATE', 'ZIPCODE', 'CATEGORY' ];
-const GOOGLE_API_KEY = 'AIzaSyD9kTLfE_YQBBqg6nGjyKCswEtMpY4MiKc';
+const GOOGLE_API_KEY = '{{YOUR_API_KEY}}';
 const GOOGLE_MAP_ICON = [
 	'http://maps.google.com/mapfiles/ms/micons/yellow-dot.png',
 	'http://maps.google.com/mapfiles/ms/micons/red-dot.png',

@@ -1,4 +1,7 @@
-# neat
+# Assignnment of Liu Ting Chun
+
+## Prerequisite
+In order to run this application, you will need a Google API key with Google Geocoding API and Google Maps JavaScript API enabled. You may edit the key to use in `src/constants/index.js - GOOGLE_API_KEY`
 
 ## Project setup
 ```
@@ -24,6 +27,3 @@ npm run test:unit
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
