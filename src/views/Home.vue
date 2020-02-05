@@ -15,11 +15,12 @@
     <GoogleMap>
       <template slot-scope="{ google, map }">
         <GoogleMapMarker
-          v-for="marker in markers"
+          v-for="(marker, index) in markers"
           v-bind:key="marker.id"
           v-bind:marker="marker"
           v-bind:google="google"
           v-bind:map="map"
+          v-bind:centered="index === 0"
         />
       </template>
     </GoogleMap>

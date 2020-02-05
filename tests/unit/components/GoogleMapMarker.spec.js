@@ -14,7 +14,8 @@ describe('GoogleMapMarker.vue', () => {
       marker: {
         type: Object,
         required: true
-      }
+      },
+      centered: Boolean
     });
   })
 })
