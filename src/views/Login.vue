@@ -91,7 +91,7 @@
       padding-top: 14px;
       margin: 0 auto;
       border-top: solid 8px map-get($theme-colors, primary);
-      background-color: rgba($white, 0.9);
+      background-color: $white;
       width: 300px;
       max-width: calc(100% - 30px);
     }
@@ -142,7 +142,7 @@
 
     .login-block-footer {
       padding: 14px;
-      background-color: rgba($gray-200, 0.9);
+      background-color: $gray-200;
       text-align: center;
     }
   }
